@@ -1,0 +1,5 @@
+mock
+botocore==1.15.49
+boto3==1.12.49
+kubernetes==11.0.0
+yaml

@@ -1,0 +1,13 @@
+{
+	"RequestType": "Update",
+	"ServiceToken": "arn:aws:lambda:eu-west-1:057493343013:function:CloudPlatform-Lambda-IBPS-CreateExternalDnsFunctio-68OEBC7O80IC",
+	"ResponseURL": "https://cloudformation-custom-resource-response-euwest1.s3-eu-west-1.amazonaws.com/arn%3Aaws%3Acloudformation%3Aeu-west-1%3A057493343013%3Astack/CloudPlatform-Lambda-IBPSOYTUTY85/66607940-a039-11ea-8484-063a4310b160%7CCreateExternalDns%7C6e20529e-47c9-4f5a-9bb8-5ab0f19b686b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200605T084827Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Credential=AKIAJ7MCS7PVEUOADEEA%2F20200605%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=abfc0a00a8c8d97545ad7796617c0ce299d9db58f9da126f315011c6c3afe90b",
+	"StackId": "arn:aws:cloudformation:eu-west-1:057493343013:stack/CloudPlatform-Lambda-IBPSOYTUTY85/66607940-a039-11ea-8484-063a4310b160",
+	"RequestId": "6e20529e-47c9-4f5a-9bb8-5ab0f19b686b",
+	"LogicalResourceId": "CreateExternalDns",
+	"PhysicalResourceId": "CloudPlatform-Lambda-IBPSOYTUTY85-CreateExternalDns-8TJZC612Q1NM",
+	"ResourceType": "AWS::CloudFormation::CustomResource",
+	"ResourceProperties": {
+		"ServiceToken": "arn:aws:lambda:eu-west-1:057493343013:function:CloudPlatform-Lambda-IBPS-CreateExternalDnsFunctio-68OEBC7O80IC"
+	}
+}
