@@ -74,19 +74,19 @@ class FluentdAgentTest(BaseLambdaKubeTest):
         self.assertEqual(response.spec.template.spec.containers[0].volume_mounts[2].mount_path,
                          '/var/lib/docker/containers')
         self.assertEqual(response.spec.template.spec.containers[0].volume_mounts[2].read_only,
-                         'true')
+                         True)
         self.assertEqual(response.spec.template.spec.containers[0].volume_mounts[3].name,
                          'runlogjournal')
         self.assertEqual(response.spec.template.spec.containers[0].volume_mounts[3].mount_path,
                          '/run/log/journal')
         self.assertEqual(response.spec.template.spec.containers[0].volume_mounts[3].read_only,
-                         'true')
+                         True)
         self.assertEqual(response.spec.template.spec.containers[0].volume_mounts[4].name,
                          'dmesg')
         self.assertEqual(response.spec.template.spec.containers[0].volume_mounts[4].mount_path,
                          '/var/log/dmesg')
         self.assertEqual(response.spec.template.spec.containers[0].volume_mounts[4].read_only,
-                         'true')
+                         True)
 
     def test_configmap(self):
         response = self.fluentd_agent._configmap()
