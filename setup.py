@@ -55,7 +55,7 @@ setup(
         'botocore==1.16.19',
         'boto3==1.13.19',
         'kubernetes==11.0.0',
-        'PyYAML==5.3.1',
+        'PyYAML==5.4',
         'jinja2==2.11.2'
     ],
 )
